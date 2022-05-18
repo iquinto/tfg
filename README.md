@@ -32,25 +32,28 @@ tfg
 
 #### Prepare project
 <ol type="1">
+   <li>
+    Download
+    <a href="https://github.com/iquinto/tfg/blob/master/docker-compose.yml"> 
+      docker-compose.yml</a> file or clone <a href="https://github.com/iquinto/tfg"> current </a> 
+     repository to execute the whole project via docker compose (docker image)    
+  </li>
   <li>
-    Download or cloan 
+    Download (zip) or cloan 
     <a href="https://github.com/iquinto/working-student-ui" target="_blank"> working-student-ui  </a> 
     repository to install Vue project for frontend
   </li>
   <li>
-    Download or cloan 
+    Download (zip) or cloan 
     <a href="https://github.com/iquinto/working-student-app" target="_blank"> working-student-app </a> 
     repository to install Springboot project for backend
   </li>
   <li>
-    Download or cloan 
+    Download (zip) or cloan 
     <a href="https://github.com/iquinto/working-student-cypres" target="_blank"> working-student-cypress </a>
      repository to install Cypress E2E testing
   </li>
-  <li>
-    Download or cloan 
-    <a href="https://github.com/iquinto/tfg"> current </a> repository to execute the whole project via docker compose (docker image)    
-  </li>
+
 
 
 </ol>  
