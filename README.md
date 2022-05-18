@@ -6,7 +6,7 @@ This is TFG project and it is made up of 4 elements (each one in its own GIT rep
 * A repository for <a href="https://github.com/iquinto/working-student-ui">frontend</a> code (working-student-ui)
 * A repository for <a href="https://github.com/iquinto/working-student-app">backend</a> code (working-student-app)
 * A repository for <a href="https://github.com/iquinto/working-student-cypress">E2E</a> testing
-* A <a href="https://github.com/iquinto/tfg-uoc/blob/master/docker-compose.yml">docker-compose.yml</a> file to execute the project via docker images.
+* A <a href="https://github.com/iquinto/tfg/blob/master/docker-compose.yml">docker-compose.yml</a> file to execute the project via docker images.
 
 <p align="right">(<a href="#top">go up</a>)</p>
 
