@@ -9,7 +9,9 @@ This is TFG project and it is made up of 4 elements (each one in its own GIT rep
 * A <a href="https://github.com/iquinto/tfg-uoc/blob/master/docker-compose.yml">docker-compose.yml</a> file to execute the project via docker images.
 
 <p align="right">(<a href="#top">go up</a>)</p>
+
 ## Configuration
+
 ### Directory structure
 Create a parent directory (tfg) where to save the downloaded or cloned repositories. The objective is to have the following directory structure for the  whole project:
 ```
