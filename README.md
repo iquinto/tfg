@@ -41,17 +41,17 @@ tfg
   <li>
     Download (zip) or cloan 
     <a href="https://github.com/iquinto/working-student-ui" target="_blank"> working-student-ui  </a> 
-    repository to install Vue project for frontend
+    repository to install Vue project for frontend (follow instruction in the repositoy for installation)
   </li>
   <li>
     Download (zip) or cloan 
     <a href="https://github.com/iquinto/working-student-app" target="_blank"> working-student-app </a> 
-    repository to install Springboot project for backend
+    repository to install Springboot project for backend (follow instruction in the repositoy for installation)
   </li>
   <li>
     Download (zip) or cloan 
     <a href="https://github.com/iquinto/working-student-cypres" target="_blank"> working-student-cypress </a>
-     repository to install Cypress E2E testing
+     repository to install Cypress E2E testing (follow instruction in the repositoy for installation)
   </li>
 
 
