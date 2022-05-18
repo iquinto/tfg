@@ -1,0 +1,39 @@
+version: '1'
+services:
+  working-student-postgres:
+    image: postgres
+    container_name: working-student-postgres
+    platform: linux/amd64
+    restart: always
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: workingstudent
+      POSTGRES_PASSWORD: workingstudent
+      POSTGRES_DB: workingstudent
+
+  working-student-adminer:
+    image: adminer
+    container_name: working-student-adminer
+    platform: linux/amd64
+    restart: always
+    ports:
+      - 18080:8080
+
+  working-student-app:
+    image: iquinto/working-student-app:1
+    container_name: working-student-app
+    environment:
+      - DB_SERVER=workingstudent-postgres
+    ports:
+      - 8081:8081
+    links:
+      - working-student-postgres
+
+  working-student-ui:
+    image: iquinto/working-student-ui:1
+    container_name: working-student-ui
+    ports:
+      - 8080:80
+    links:
+      - working-student-app
