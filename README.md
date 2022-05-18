@@ -31,14 +31,28 @@ tfg
 ```
 
 #### Prepare project
-
 <ol type="1">
-  <li>Download or cloan <a href="https://github.com/iquinto/tfg"> current repository</a></li>
-  <li>Download or cloan <a href="https://github.com/iquinto/working-student-ui" target="_blank"> working-student-ui repository</a></li>
-  <li>Download or cloan <a href="https://github.com/iquinto/working-student-app" target="_blank"> working-student-app repository</a></li>
-  <li>Download or cloan <a href="https://github.com/iquinto/working-student-cypres" target="_blank"> working-student-cypress repository</a></li>
+  <li>
+    Download or cloan 
+    <a href="https://github.com/iquinto/working-student-ui" target="_blank"> working-student-ui  </a> 
+    repository to install Vue project for frontend
+  </li>
+  <li>
+    Download or cloan 
+    <a href="https://github.com/iquinto/working-student-app" target="_blank"> working-student-app </a> 
+    repository to install Springboot project for backend
+  </li>
+  <li>
+    Download or cloan 
+    <a href="https://github.com/iquinto/working-student-cypres" target="_blank"> working-student-cypress </a>
+     repository to install Cypress E2E testing
+  </li>
+  <li>
+    Download or cloan 
+    <a href="https://github.com/iquinto/tfg"> current </a> repository to execute the whole project via docker compose (docker image)    
+  </li>
 
-  <li>Milk</li>
+
 </ol>  
 
 
@@ -123,22 +137,7 @@ To check the operation, you can access the _Adminer_ panel at http://localhost:1
 <p align="right">(<a href="#top">go up</a>)</p>
 
 
-## Links to used tools, libraries and modules
 
-* [Docker](https://www.docker.com/) / [Docker Compose](https://github.com/docker/compose)
-* [Spring](https://spring.io/) / [Spring Boot](https://spring.io/projects/spring-boot)
-  * [spring-data-jpa](https://spring.io/projects/spring-data-jpa)
-  * [spring-data-jdbc](https://spring.io/projects/spring-data-jdbc)
-  * [spring-kafka](https://spring.io/projects/spring-kafka)
-* [Apache Kafka](https://kafka.apache.org/)
-* [PostgreSQL](https://www.postgresql.org/)
-* [Lombok](https://projectlombok.org/)
-* [springdoc-openapi-ui (SwaggerUI for OpenApi 3)](https://github.com/springdoc/springdoc-openapi)
-
-
-## Contact
-
-Pau Pineda - ppineda0@uoc.edu
 
 <p align="right">(<a href="#top">go up</a>)</p>
 
