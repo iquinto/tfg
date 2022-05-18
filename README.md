@@ -36,22 +36,22 @@ tfg
     Download
     <a href="https://github.com/iquinto/tfg/blob/master/docker-compose.yml"> 
       docker-compose.yml</a> file or clone <a href="https://github.com/iquinto/tfg"> current </a> 
-     repository to execute the whole project via docker compose (docker image)    
+     repository to execute the whole project via docker compose (docker image). Check <a href="#docker"> here </a>  for instructions 
   </li>
   <li>
     Download (zip) or cloan 
     <a href="https://github.com/iquinto/working-student-ui" target="_blank"> working-student-ui  </a> 
-    repository to install Vue project for frontend (follow instruction in the repositoy for installation)
+    repository to install Vue project for frontend (<i>follow instruction in the repositoy for installation</i>).
   </li>
   <li>
     Download (zip) or cloan 
     <a href="https://github.com/iquinto/working-student-app" target="_blank"> working-student-app </a> 
-    repository to install Springboot project for backend (follow instruction in the repositoy for installation)
+    repository to install Springboot project for backend (<i>follow instruction in the repositoy for installation</i>).
   </li>
   <li>
     Download (zip) or cloan 
     <a href="https://github.com/iquinto/working-student-cypres" target="_blank"> working-student-cypress </a>
-     repository to install Cypress E2E testing (follow instruction in the repositoy for installation)
+     repository to install Cypress E2E testing (<i>follow instruction in the repositoy for installation</i>).
   </li>
 
 
@@ -147,7 +147,7 @@ To check the operation, you can access the _Adminer_ panel at http://localhost:1
 
 
 # WORKINGSTUDENT
-### tfg-uoc docker compose
+<span id="docker">tfg-uoc docker compose</span>
 ### Run project via docker compose
 ```
 docker compose up --build
