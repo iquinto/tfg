@@ -75,11 +75,6 @@ Once Docker Compose is installed you can execute the following commands:
   docker-compose up
   (Linux)
   ```   
-### Run project via docker compose
-```
-docker compose up --build
-```
-
 ### Stop project
 ```
 docker-compose down
