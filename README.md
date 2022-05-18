@@ -9,17 +9,8 @@ This is TFG project and it is made up of 4 elements (each one in its own GIT rep
 * A <a href="https://github.com/iquinto/tfg-uoc/blob/master/docker-compose.yml">docker-compose.yml</a> file to execute the project via docker images.
 
 <p align="right">(<a href="#top">go up</a>)</p>
-
-### Powered by
-* [Spring Boot](https://spring.io/projects/spring-boot)
-* [Vue](https://vuejs.org/)
-* [PostgreSQL](https://www.postgresql.org/)
-* [Docker](https://www.docker.com/)
-
-
 ## Configuration
-
-#### Directory structure
+### Directory structure
 Create a parent directory (tfg) where to save the downloaded or cloned repositories. The objective is to have the following directory structure for the  whole project:
 ```
 tfg
@@ -30,7 +21,7 @@ tfg
 └ working-student-cypress
 ```
 
-#### Prepare project
+### Prepare project
 <ol type="1">
    <li>
     Download
@@ -59,38 +50,21 @@ tfg
 </ol>  
 
 
+### Powered by
+* [Spring Boot](https://spring.io/projects/spring-boot)
+* [Vue](https://vuejs.org/)
+* [PostgreSQL](https://www.postgresql.org/)
+* [Docker](https://www.docker.com/)
 
 
-### Database
-
-### Backend
-
-### Frontend
-
-### E2E Testing
-
-### Docker Desktop / Docker Compose installation
+<span id="docker"></span>
+## Docker Desktop / Docker Compose installation
 
 Proceed to install Docker Compose following the steps described in the following guide: https://docs.docker.com/compose/install/ (according to your OS).
 
-Once Docker Compose is installed, download the code in ZIP format or just clone the <a href="https://github.com/iquinto/tfg-uoc/blob/master/docker-compose.yml">.
-```
-epcsd-spring-main
-├ README.md
-├ docker-compose.yml
-├ epcsd-spring-notification-main
-└ epcsd-spring-showcatalog-main
-```
-
-<p align="right">(<a href="#top">go up</a>)</p>
-
-
-### Basic infrastructure (dockers)
-
-* Download the code in ZIP format or just clone the <a href="https://github.com/ppinedar/epcsd-spring">epcsd-spring</a> repository in the working folder (_epcsd-spring-main_ if the recommendation has been followed).
+Once Docker Compose is installed you can execute the following commands:
 
 * From the work folder, run the command:
-
   ```sh
   docker compose up
   (Win)
@@ -98,56 +72,7 @@ epcsd-spring-main
   ```sh
   docker-compose up
   (Linux)
-  ```
-  
-The following containers should start:
-
-* epcsd-spring_adminer_1 - adminer, an SQL client
-* epcsd-spring_kafka_1 - the kafka server
-* epcsd-spring_db_1 - the postgresql database
-* epcsd-spring_zookeeper_1 - kafka zookeeper
-
-In order to verify that all containers are up and running, we will execute the following command:
-
-  ```sh
-  docker ps -a
-  ```
-  
-  
-We should see something like this:
-
-![Screenshot_1](https://user-images.githubusercontent.com/72941559/155118965-78bfa6f1-24e0-461c-92c4-63df919d2ac1.png)
-
-To check the operation, you can access the _Adminer_ panel at http://localhost:18080/ and make a query against the PostgreSQL DB that we have just instantiated with the following connection data:
-
-* Engine: PostgreSQL
-* Server: db
-* User: epcsd
-* Password: epcsd
-* Schema: epcsd
-
-<img width="513" alt="Screenshot_1" src="https://user-images.githubusercontent.com/72941559/156942365-9aa515cc-52fd-4c02-a21e-880911269985.png">
-
-<img width="546" alt="Screenshot_2" src="https://user-images.githubusercontent.com/72941559/156942408-cbcb773d-b33d-406c-ba37-db980e3dbf64.png">
-
-
-### ShowCatalog and Notification microservices
-
-* Download the code in ZIP format or just clone the <a href="https://github.com/ppinedar/epcsd-spring-showcatalog">epcsd-spring-showcatalog</a> and <a href="https://github.com/ppinedar/epcsd-spring-notification">epcsd-spring-notification</a> repositories into the working folder (_epcsd-spring-main_ if the recommendation has been followed)
-* Open the projects in the preferred development environment. __IMPORTANT:__ Each project has to be imported separately as they are separate deployment units.
-* Verify proper build and run by starting the projects and checking that http://localhost:18081/swagger-ui/index.html and http://localhost:18082/swagger-ui/index.html are accessible
-
-<p align="right">(<a href="#top">go up</a>)</p>
-
-
-
-
-<p align="right">(<a href="#top">go up</a>)</p>
-
-
-
-# WORKINGSTUDENT
-<span id="docker">tfg-uoc docker compose</span>
+  ```   
 ### Run project via docker compose
 ```
 docker compose up --build
