@@ -34,7 +34,10 @@ tfg
 
 <ol type="1">
   <li>Download or cloan <a href="https://github.com/iquinto/tfg"> current repository</a></li>
-  <li>Tea</li>
+  <li>Download or cloan <a href="https://github.com/iquinto/working-student-ui" target="_blank"> working-student-ui repository</a></li>
+  <li>Download or cloan <a href="https://github.com/iquinto/working-student-app" target="_blank"> working-student-app repository</a></li>
+  <li>Download or cloan <a href="https://github.com/iquinto/working-student-cypres" target="_blank"> working-student-cypress repository</a></li>
+
   <li>Milk</li>
 </ol>  
 
