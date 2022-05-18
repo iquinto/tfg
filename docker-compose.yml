@@ -21,7 +21,7 @@ services:
       - 18080:8080
 
   working-student-app:
-    image: iquinto/working-student-app:1
+    image: iquinto/working-student-app
     container_name: working-student-app
     environment:
       - DB_SERVER=workingstudent-postgres
@@ -31,7 +31,7 @@ services:
       - working-student-postgres
 
   working-student-ui:
-    image: iquinto/working-student-ui:1
+    image: iquinto/working-student-ui
     container_name: working-student-ui
     ports:
       - 8080:80
