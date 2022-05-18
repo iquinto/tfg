@@ -16,22 +16,8 @@ This is TFG project and it is made up of 4 elements (each one in its own GIT rep
 * [PostgreSQL](https://www.postgresql.org/)
 * [Docker](https://www.docker.com/)
 
-## Before starting
 
-To set up the containers that are part of the basic infrastructure of the project, the following ports will be used:
-
-* 22181 - Apache Kafka (Zookeeper)
-* 19092, 29092 - Apache Kafka (Server)
-* 54320 - PostgreSQL
-* 18080 - Adminer
-* 18081 - Used by the showcatalog microservice
-* 18082 - Used by the notification microservice
-
-To avoid conflicts with other installed applications, the default ports of all applications have been modified. Still, if there is a conflict over a port already in use, simply modifying the ports specified in the [docker-compose.yml](https://github.com/ppinedar/epcsd-spring/blob/main/docker-compose.yml) file will fix the problem. This link to the official docker compose documentation explains how to modify this configuration using the _ports_: [Networking in Compose](https://docs.docker.com/compose/networking/) option.
-__IMPORTANT NOTICE:__ The modified ports will also have to be changed in the microservices configuration (usually defined in the Spring application.properties file).
-
-
-## Installation
+## Configuration
 
 #### Directory structure
 Create a parent directory (tfg) where to save the downloaded or cloned repositories. The objective is to have the following directory structure for the  whole project:
@@ -43,6 +29,17 @@ tfg
 ├ working-student-app
 └ working-student-cypress
 ```
+
+#### Prepare project
+
+<ol type="1">
+  <li>Download or cloan <a href="https://github.com/iquinto/tfg"> current repository</a></li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>  
+
+
+
 
 ### Database
 
@@ -141,27 +138,6 @@ To check the operation, you can access the _Adminer_ panel at http://localhost:1
 Pau Pineda - ppineda0@uoc.edu
 
 <p align="right">(<a href="#top">go up</a>)</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
