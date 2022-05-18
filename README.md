@@ -34,9 +34,9 @@ __IMPORTANT NOTICE:__ The modified ports will also have to be changed in the mic
 ## Installation
 
 #### Directory structure
-Create a parent directory (tfg-uoc) where to save the downloaded or cloned repositories. The objective is to have the following directory structure for the  whole project:
+Create a parent directory (tfg) where to save the downloaded or cloned repositories. The objective is to have the following directory structure for the  whole project:
 ```
-tfg-uoc
+tfg
 ├ README.md
 ├ docker-compose.yml
 ├ working-student-ui
