@@ -13,7 +13,7 @@ This is TFG project and it is made up of 4 elements (each one in its own GIT rep
 ## Configuration
 
 ### Directory structure
-Create a parent directory (tfg) where to save the downloaded or cloned repositories. The objective is to have the following directory structure for the  whole project:
+Create a parent directory (tfg) where to save the downloaded or cloned repositories and the docker-compose file. The objective is to have the following directory structure for the  whole project:
 ```
 tfg
 ├ README.md
@@ -28,8 +28,7 @@ tfg
    <li>
     Download
     <a href="https://github.com/iquinto/tfg/blob/master/docker-compose.yml"> 
-      docker-compose.yml</a> file or clone <a href="https://github.com/iquinto/tfg"> current </a> 
-     repository to execute the whole project via docker compose (docker image). Check <a href="#docker"> here </a>  for instructions 
+      docker-compose.yml</a> to root folder (tfg) for project project execution via docker compose (docker image). Check <a href="#docker"> here </a>  for instructions 
   </li>
   <li>
     Download (zip) or cloan 
