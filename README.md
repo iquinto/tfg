@@ -77,11 +77,14 @@ Once Docker Compose is installed you can execute the following commands:
   (Linux)
   ```   
  
-### Links
+### Demo
+Visit app
 ```
-http://localhost:8080/    //app
+http://localhost:8080/   
+```
+Manage database app
+```
 http://localhost:18080/   // adminer Database manager
-
 ```
 
 ### Stop project
