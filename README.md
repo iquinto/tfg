@@ -63,8 +63,10 @@ tfg
 
 Proceed to install Docker Compose following the steps described in the following guide: https://docs.docker.com/compose/install/ (according to your OS).
 
-Once Docker Compose is installed you can execute the following commands:
 
+
+### Run project
+Once Docker Compose is installed you can execute the following commands:
 * From the work folder, run the command:
   ```sh
   docker compose up
@@ -74,6 +76,14 @@ Once Docker Compose is installed you can execute the following commands:
   docker-compose up
   (Linux)
   ```   
+ 
+### Links
+```
+http://localhost:8080/    //app
+http://localhost:18080/   // adminer Database manager
+
+```
+
 ### Stop project
 ```
 docker-compose down
