@@ -82,9 +82,18 @@ Visit app
 ```
 http://localhost:8080/   
 ```
-Manage database app
+Manage database
 ```
 http://localhost:18080/   // adminer Database manager
+
+system: postgres
+server: working-student-postgres
+database: workingstudent
+username: workingstudent
+password: workingstudent
+host: localhost
+port: 5432
+
 ```
 
 ### Stop project
