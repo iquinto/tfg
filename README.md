@@ -80,7 +80,9 @@ Once Docker Compose is installed you can execute the following commands:
 ### Demo
 Visit app
 ```
-http://localhost:8080/   
+http://localhost:8080/
+username: test_student1
+pass: secret_pass
 ```
 Manage database
 ```
